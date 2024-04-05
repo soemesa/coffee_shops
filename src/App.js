@@ -1,9 +1,10 @@
-import Header from './components/Banner'
+import Banner from './components/Banner';
+
 
 function App() {
   return (
     <div className="App">
-      < Header /> 
+      < Banner /> 
     </div>
   );
 }
