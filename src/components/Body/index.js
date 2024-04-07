@@ -3,10 +3,11 @@ import './Body.css'
 const Body = () => {
     return (
         <body className='conteudo-body'>
-            <img src="imagens/logo4.jpeg" alt='Logo Coffee'/>
-            <h1>Um dia perfeito começa com café gostoso!!</h1>
-            <button className='botao'>Login</button>
-            <button className='botao'>Registrar-se</button>
+            <button className='botao-login'>Login</button>
+            <button className='botao-registrar'>Registrar-se</button>
+            <h1>Viva sua melhor vida de café</h1>
+            <h5>Nós não fazemos seu café. Nós fazemos o seu dia.</h5>
+            <img src="imagens/img13.jpg" alt='Logo Coffee'/>
         </body>
 
     )
