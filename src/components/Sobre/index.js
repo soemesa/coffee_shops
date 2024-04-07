@@ -2,14 +2,14 @@ import './Sobre.css'
 
 const Sobre = () => {
     return (
-        <div className='container'>
-            <h1 className='titulo'>
+        <div className='container-sobre'>
+            <h1 className='titulo-sobre'>
                 Um pouco da Nossa História
             </h1>
             <p>
                 O Cofee Shop Tia Rosa surgiu para proporcionar momentos de cumplicidade e alegria no dia a dia das pessoas. 
                 Para os apreciadores de um bom café, que também buscam o aconchego de um local sofisticado e intimista, 
-                a cafeteria é o lugar perfeito. Hoje o O Cofee Shop Tia Rosa é referência de qualidade, luxo e sofisticação, 
+                a cafeteria é o lugar perfeito. Hoje o Cofee Shop Tia Rosa é referência de qualidade, luxo e sofisticação, 
                 trata-se de um ambiente único, com características próprias, receitas exclusivas e arte na apresentação 
                 dos produtos.
             </p>

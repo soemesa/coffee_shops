@@ -1,6 +1,4 @@
 //import { useState } from 'react';
-//import Banner from './components/Banner';
-//import Body from './components/Body';
 import PaginaPrincipal from './components/PaginaPrincipal';
 
 
