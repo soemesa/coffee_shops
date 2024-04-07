@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <header className='cabecalho'> 
             <a className='logo' href='index.html'>   
-                <img src="imagens/1.png" alt='Logo Coffee'/>
+                <img src="imagens/logo-shop.png" alt='Logo Coffee'/>
             </a>
             < Pesquisar />    
             <nav> 
@@ -15,8 +15,7 @@ const Banner = () => {
                     <li className='item-menu'><a href="#carrinho">Carrinho</a></li>
                     <li className='item-menu'><a href="#lojas">Minha Conta</a></li>
                 </ul>
-            </nav>
-                    
+            </nav>       
         </header>
 
 
@@ -24,8 +23,3 @@ const Banner = () => {
 }
 
 export default Banner
-
-//<img src="imagens/coffee_logo.png" alt='Logo Coffee'/>
-                
-//<img src="imagens/Logo-coffe-shop1.png" alt='Coffee Shop'/>
-//<img src="imagens/logo-coffee-shop2.png" alt='Coffee Shop'/>
