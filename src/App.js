@@ -1,19 +1,16 @@
-//import { useState } from 'react';
-import PaginaPrincipal from './components/PaginaPrincipal';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import PaginaPrincipal from './pages/PaginaPrincipal';
 
 function App() {
- /* const [termoBusca, setTermoBusca] = useState('');
-
-  const realizarBusca = (termo) => {
-    setTermoBusca(termo);
-    console.log('Termo de busca:', termo)
-  }*/
 
   return (
-    <div className="App">
-      < PaginaPrincipal /> 
-    </div>
+    //Rotas
+    <Router>
+      <Routes>
+        <Route path='/' element={<PaginaPrincipal />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,7 +1,7 @@
-import Banner from '../Banner';
-import Body from '../Body';
-import Rodape from '../Rodape';
-import Copyright from '../Copyright';
+import Banner from "../../components/Banner";
+import Body from "../../components/Body";
+import Rodape from "../../components/Rodape"
+import Copyright from "../../components/Copyright"
 
 
 const PaginaPrincipal = () => {
