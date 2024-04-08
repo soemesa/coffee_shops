@@ -12,15 +12,15 @@ const Banner = () => {
             <nav> 
                 <ul className='menu-lista'>
                     <li className='item-menu'><Link to="/">Home</Link></li>
-                    <li className='item-menu'><a href="#cardapio">Cardápio</a></li>
-                    <li className='item-menu'><a href="#carrinho">Carrinho</a></li>
-                    <li className='item-menu'><a href="#lojas">Minha Conta</a></li>
+                    <li className='item-menu'><Link to="/cardapio">Cardápio</Link></li>
+                    <li className='item-menu'><Link to="/carrinho">Carrinho</Link></li>
+                    <li className='item-menu'><Link to="/usuario">Usuário</Link></li>
                 </ul>
-            </nav>       
+            </nav>         
         </header>
-
-
-    )
+    );
 }
 
 export default Banner
+
+

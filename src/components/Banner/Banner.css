@@ -25,9 +25,10 @@
 
 .item-menu {
     display: inline-block;
+    margin: 0 15px;
 }
 
-.item-menu a {
+.item-menu link {
     display: inline-block;
     padding: 1.86em 1.42em;
     color: white;
