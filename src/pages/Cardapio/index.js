@@ -1,12 +1,16 @@
 import Banner from "../../components/Banner"
+import Produtos from "../../components/Produtos"
+
+import produtos from "../../produtosdb.js";
 
 const Cardapio = () => {
-    return (
+    return(
         <div>
-            < Banner />
-            <h1>Bem-vindo a nosso Cardapio</h1>
+            <Banner />
+            <Produtos produtos={produtos}/>
         </div>
     )
 }
 
 export default Cardapio
+

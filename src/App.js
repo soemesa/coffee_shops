@@ -6,7 +6,7 @@ import Carrinho from './pages/Carrinho';
 import Usuario from './pages/Usuario';
 
 function App() {
-
+    
   return (
     //Rotas
     <Router>

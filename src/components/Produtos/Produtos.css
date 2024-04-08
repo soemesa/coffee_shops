@@ -1,0 +1,6 @@
+.produtos {
+    background-color: rgb(114, 104, 60);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Para distribuir as cartas uniformemente na linha */
+  }
