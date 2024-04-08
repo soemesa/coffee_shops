@@ -1,4 +1,3 @@
-import './PaginaPrincipal.css';
 import Banner from '../Banner';
 import Body from '../Body';
 import Rodape from '../Rodape';
