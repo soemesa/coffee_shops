@@ -54,10 +54,11 @@ const Rodape = () => {
                     <FaLinkedin />
                     <span>Linkedlin/TiaRosa</span>
                 </li>   
-            </ul>    
+            </ul>  
         </footer>
     )
 }
+
 
 
 export default Rodape 

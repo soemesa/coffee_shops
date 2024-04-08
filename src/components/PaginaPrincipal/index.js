@@ -2,6 +2,7 @@ import './PaginaPrincipal.css';
 import Banner from '../Banner';
 import Body from '../Body';
 import Rodape from '../Rodape';
+import Copyright from '../Copyright';
 
 
 const PaginaPrincipal = () => {
@@ -10,6 +11,7 @@ const PaginaPrincipal = () => {
             < Banner/>
             < Body/>
             < Rodape />
+            < Copyright />
         </div>
         
     );
