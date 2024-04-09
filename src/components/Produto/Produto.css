@@ -1,13 +1,6 @@
-.produto-lista {
-    padding: 40px 0;
-    width: fit-content;
-    display: flex;  
-    gap: 20px;  
-    justify-content: space-evenly;
-    align-content: center;
-}
 
 .produto-card{
+    width: 300px;
     box-sizing: border-box;
     padding: 10px;
     border-radius: 4px;

@@ -1,7 +1,7 @@
 .conteudo-body {
     position: relative;
     text-align: center;
-    display: gr;
+    display: grid;
   
 }
 
@@ -13,19 +13,19 @@
 .h1{
     color: #f1ebeb;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 3.5em;
     position: absolute;
-    top: 15%;
-    left: 30%;
+    top: 12%;
+    left: 22%;
 }
 
 .conteudo-body h5{
     color: #fff;
     font-family:'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 1.5em;
     position: absolute;
     top: 22%;
-    left: 34%;
+    left: 31%;
 }
 
 .botao-login{
