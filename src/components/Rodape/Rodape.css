@@ -1,18 +1,18 @@
-.footer{
-    display: flex;
+.footer {
+    display:flex;
     justify-content: space-between;
     background-color: #83520d;
-    position: relative;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    top: 180%
 }
+
 .footer ul {
+    flex: 1;
+    margin-right: 20px;
     list-style: none;
-    margin-top: 30px;
-    margin-right: 10%;
-    margin-left: 10%;
-   
+    margin-top: 2%;
 }
 .footer ul li {
     display: flex;
@@ -25,6 +25,13 @@
     color: bisque;
 }
 
-.titulo {
-    color: aliceblue;
+.footer .titulo {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: bisque;
 }
+
+.footer .titulo::after {
+    margin-right: 5px;
+}
+
