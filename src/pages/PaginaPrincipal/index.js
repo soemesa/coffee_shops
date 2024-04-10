@@ -1,7 +1,7 @@
 import Banner from "../../components/Banner";
 import Body from "../../components/Body";
 import Rodape from "../../components/Rodape"
-import Copyright from "../../components/Copyright"
+
 
 
 const PaginaPrincipal = () => {
@@ -10,7 +10,6 @@ const PaginaPrincipal = () => {
             < Banner/>
             < Body/>
             < Rodape />
-            < Copyright />
         </div>
         
     );
