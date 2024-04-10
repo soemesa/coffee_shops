@@ -1,4 +1,6 @@
+
 import './Rodape.css';
+
 import {FaMapMarkerAlt, FaRegCalendarAlt, FaRegClock, FaGlobe, FaEnvelope, FaPhoneSquareAlt, FaWhatsapp, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Rodape = () => {
@@ -63,7 +65,9 @@ const Rodape = () => {
 
 export default Rodape 
 
-
+/**
+ * 
+ */
 
 
 

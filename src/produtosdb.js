@@ -7,7 +7,7 @@ const produtos = [
     {id: 6, descricao: "Cappuccino Latte", preco: 15.00, imagem: "./imagens/cap-latte.jpg", quantidadeEstoque: 20},
     {id: 7, descricao: "Cappuccino Frappe", preco: 15.00, imagem: "./imagens/cap-frappe.jpg", quantidadeEstoque: 20},
     {id: 8, descricao: "Cappuccino com Nutella", preco: 15.00, imagem: "./imagens/cap-nutella.jpeg", quantidadeEstoque: 20},
-    {id: 9, descricao: "Milkshake de Café com Nozes", preco: 15.00, imagem: "./imagens/milk-nozes.jpg", quantidadeEstoque: 20},
+    {id: 9, descricao: " Cappuccino com Nozes", preco: 15.00, imagem: "./imagens/milk-nozes.jpg", quantidadeEstoque: 20},
     {id: 10, descricao: "Croissant", preco: 10.00, imagem: "./imagens/croissant-trad.jpg", quantidadeEstoque: 20},
     {id: 11, descricao: "Brownie chocolate", preco: 12.00, imagem: "./imagens/brownie.jpg", quantidadeEstoque: 20},
     {id: 12, descricao: "Cookies", preco: 9.00, imagem: "./imagens/cookies.jpg", quantidadeEstoque: 20},

@@ -4,6 +4,7 @@ import PaginaPrincipal from './pages/PaginaPrincipal';
 import Cardapio from './pages/Cardapio';
 import Carrinho from './pages/Carrinho';
 import Usuario from './pages/Usuario';
+import Compras from './pages/Compras';
 
 function App() {
     
@@ -15,6 +16,7 @@ function App() {
         <Route path='/cardapio' element={<Cardapio />} />
         <Route path='/carrinho' element={<Carrinho />} />
         <Route path='/usuario' element={<Usuario />} />
+        <Route path='/compras' element={<Compras /> } />
       </Routes>
     </Router>
   );
