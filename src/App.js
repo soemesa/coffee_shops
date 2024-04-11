@@ -19,6 +19,7 @@ function App() {
         <Route path='/compras' element={<Compras /> } />
       </Routes>
     </Router>
+ 
   );
 }
 

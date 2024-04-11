@@ -10,7 +10,7 @@ const Produtos = ({ produtos }) => {
                 <Produto 
                     key={produto.id}
                     id={produto.id}
-                    descricao={produto.descricao}
+                    nome={produto.nome}
                     preco={produto.preco}
                     quantidadeEstoque={produto.quantidadeEstoque}
                     imagem={produto.imagem}   
