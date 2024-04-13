@@ -1,25 +1,20 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Banner from "../../components/Banner"
-import ItemCarrinho from "../../components/ItemCarrinho";
-import Produto from "../../components/Produto";
+import Rodape from "../../components/Rodape"
+import CarrinhoItems from "../../components/CarrinhoItems"
+
+
 
 const Carrinho = ( ) => {
-  
-
+    const [carrinhoItem, setCarrinhoItem] = useState([]);
     return(
         <div>
             < Banner />
-            <h1>Bem-vindo ao Carrinho!</h1>
-            
-        </div>
+            <CarrinhoItems carrinhoItem={carrinhoItem} setCarrinhoItem={setCarrinhoItem} />        
+            <Rodape /> 
+        </div> 
+               
     )
 }
-
 export default Carrinho
 
-/** key={produto.id}
-                    id={produto.id}
-                    nome={produto.nome}
-                    preco={produto.preco}
-                    quantidadeEstoque={produto.quantidadeEstoque}
-                    imagem={produto.imagem}   */

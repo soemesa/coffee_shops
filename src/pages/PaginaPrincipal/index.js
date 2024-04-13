@@ -6,7 +6,7 @@ import Rodape from "../../components/Rodape"
 
 const PaginaPrincipal = () => {
     return(
-        <div className='container'>
+        <div className='container-home'>
             < Banner/>
             < Body/>
             < Rodape />

@@ -1,0 +1,121 @@
+.carrinho-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    background-color: beige;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.carrinho-imagem {
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.carrinho-info {
+    display: flex;
+    gap: 10em;
+}
+.carrinho-quantity {
+    display: flex;
+    align-items: center;
+}
+
+.carrinho-quantity input[type="number"] {
+    width: 35px; /* Ajuste o tamanho da caixa de número */
+    margin-left: 10px; /* Adicione algum espaço à esquerda da caixa de número */
+    height: 35px;
+}
+.botao-remover{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 20px;
+    height: 100%;
+    transition: .2s all;
+}
+
+.total-comprar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: beige;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.total-comprar h2{
+    margin: 0;
+    color: blue;
+}
+
+.total-comprar button{
+    background-color: #f39315;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  .total-comprar button:hover {
+    background-color: #e29939;
+  }
+
+
+
+/*
+
+.container-carrinho{
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+
+.carrinho-imagem{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+/*
+}
+.carrinho{
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.carrinho-card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px 0;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;    
+}
+.carrinho-imagem{
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 4px;
+}
+
+.carrinho-info{
+    color: rgb(99, 84, 84);
+    display: inline-block;
+    margin-bottom: 5px;
+}
+*/

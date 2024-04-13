@@ -1,4 +1,4 @@
-.conteudo-body {
+.body-banner {
     text-align: center;
     display: grid;
     width: 100%;
@@ -7,7 +7,7 @@
 
 .conteudo-body img {
     width: 100%;
-    height: 600px;
+    height: 45%;
 }
 
 .h1{
@@ -28,33 +28,45 @@
     left: 31%;
 }
 
-.botao-login{
+.botao-ir-cardapio{
     background-color: #dfad99;
     color: #fff;
     cursor: pointer;
     padding: 10px 20px;
     margin: 0;
     top: 50%;
-    left: 39%;
+    left: 31%;
     position: absolute;
-    width: 10%;
+    width: 40%;
     border-radius: 18px;
     border: 2px solid #fff;
    
 }
 
-.botao-registrar {
-    background-color: #83520d;
-    color: #fff;
-    cursor: pointer;
-    padding: 10px 20px;
-    margin: 0;
-    top: 50%;
-    right: 39%;
-    position: absolute;
-    width: 10%;
-    border-radius: 18px;
-    border: 2px solid #fff;
+.botao-ir-cardapio:hover{
+    background-color: #fff;
+    color: #dfad99;
 }
 
+.container-sobre {
+    width: 100%;
+    height: 105%;
+    text-align: justify;
+    background-color: bisque;
+}
+.titulo-sobre {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #83520d;
 
+
+}
+.container-sobre p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #776a4d;
+    width: 90%;
+    font-size: 1.5em;
+    word-wrap: break-word;
+    line-height: 1.6;
+    margin-left: 5%; 
+}

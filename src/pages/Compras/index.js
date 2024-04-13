@@ -1,10 +1,10 @@
-import Banner from "../../components/Banner";
+
+import CompraResumo from "../../components/CompraResumo";
 
 const Compras = () => {
     return (
         <div>
-            <Banner />
-            <h1>Bem-vindo as compras</h1>
+            <CompraResumo />
         </div>
     )
 }

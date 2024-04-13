@@ -5,13 +5,14 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.20em;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 20px;
     box-sizing: border-box;
 }
 
+
 .logo img {
-    width: 6.0em;
+    width: 5.5em;
     margin-top: 10px;
 }
 
@@ -20,31 +21,17 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    background-color: #83520d;
 }
 
 .item-menu {
     display: inline-block;
-    margin: 0 15px; 
+    margin: 0 30px; 
+    margin-top: 12px;
 }
 
-.item-menu link {
+.link-menu {
     display: inline-block;
     padding: 1.86em 1.42em;
     color: white;
-}
-
-.barra-de-busca {
-    background-color: #ffffff;
-    border-radius: 20px;
-    padding: 5px;
-    width: 300px;
-}
-
-.barra-de-busca input {
-    border: none;
-    width: 80%;
-    outline: none;
-    font-size: 14px;
-    padding: 5px;
+    text-decoration: none;
 }

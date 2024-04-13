@@ -1,0 +1,83 @@
+.container-cardapio{
+    background-image: url("../../../public/imagens/logo-cardapio1.jpg");
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+/*Produto*/
+.produto{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.produto-card{
+    background-color: #e4cbcb;
+    width: 250px;
+    height: 400px;
+    padding: 6px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produto-card:hover {
+    outline: 1px solid var(--blue);
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+.produto-imagem {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    border-radius: 4px;
+}
+.produto-info{
+    padding: 5px;
+    text-align: center;
+}
+.produto-nome {
+    font-size: 20px;
+    color: rgb(20, 0, 204);
+}
+.produto-preco {
+    color: #f39315;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.botao-carrinho {
+    background-color: #0c9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 70%;
+  }
+  
+  .botao-carrinho:hover {
+    background-color: rgb(99, 230, 11);
+  }
+
+/*Carrinho*/
+
+
+/*
+.produto-aa{
+    width: fit-content;
+    
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-content: center;
+    justify-content: space-evenly; 
+}
+
+
+
+*/
