@@ -9,7 +9,6 @@ const Cardapio = () => {
     return(
             <div className="cardapio-container">
                 <Banner />
-                <h2>Bem-vindo ao Cardapio!</h2>
                 <CardapioProdutos />
                 <Rodape /> 
             </div>     

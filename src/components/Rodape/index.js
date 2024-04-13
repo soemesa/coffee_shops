@@ -1,56 +1,56 @@
 
 import './Rodape.css';
 
-import {FaMapMarkerAlt, FaRegCalendarAlt, FaRegClock, FaGlobe, FaEnvelope, FaPhoneSquareAlt, FaWhatsapp, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import {FaMapMarkerAlt, FaRegCalendarAlt, FaRegClock, FaGlobe, FaEnvelope, FaPhoneSquareAlt, FaWhatsapp, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 const Rodape = () => {
     return(
         <footer>
-            <div className="footer">
-                <ul className='endereco'>
+            <div className="container-footer">
+                <ul className='footer-lista'>
                     <li className='titulo'>Informação Geral:</li>
                     <li>
-                        <FaMapMarkerAlt />
+                        <FaMapMarkerAlt className="icone-fa"/>
                         <span>Ceilândia, Brasília - DF</span>
                     </li>
                     <li>
-                        <FaRegCalendarAlt />
+                        <FaRegCalendarAlt className="icone-fa"/>
                         <span>De Segunda Feira a Sábado</span>
                     </li>
                     <li>
-                        <FaRegClock />
+                        <FaRegClock className="icone-fa"/>
                         <span>Das 9:00 às 21:00</span>
                     </li>
                 </ul>
 
-                <ul className='contato'>
+                <ul className='footer-lista'>
                     <li className='titulo'>Contatos:</li>
                     <li>
-                        <FaEnvelope />
+                        <FaEnvelope className="icone-fa"/>
                         <span>tiarosa@gmail.com</span>
                     </li>
                     <li>
-                        <FaPhoneSquareAlt/>
+                        <FaPhoneSquareAlt className="icone-fa"/>
                         <span>3303-3333</span>
                     </li>
                     <li>
-                        <FaWhatsapp />
+                        <FaWhatsapp className="icone-fa"/>
                         <span>(61) 93303-3333</span>
                     </li>   
                 </ul> 
 
-                <ul className='redes-sociais'>
+                <ul className='footer-lista'>
                     <li className='titulo'>Redes Sociais:</li>
                     <li>
-                        <FaGlobe/>
+                        <FaGlobe className="icone-fa"/>
                         <span>tiarosacoffeeshop.gov.br</span>
                     </li>
                     <li>
-                        <FaFacebook />
+                        <FaFacebook className="icone-fa"/>
                         <span>CoffeShop Tia Rosa</span>
                     </li> 
                     <li>
-                        <FaInstagram />
+                        <FaInstagram className="icone-fa"/>
                         <span>tiarosa.coffeshop</span>    
                     </li>  
                 </ul>

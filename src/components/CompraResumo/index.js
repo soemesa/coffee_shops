@@ -4,13 +4,13 @@ import './CompraResumo.css';
 import { Link } from "react-router-dom";
 
 const CompraResumo = () => {
-    const [carrinhoItem, setCarrinhoItem] = useContext(CarrinhoContext);
+    const {carrinhoItem, setCarrinhoItem} = useContext(CarrinhoContext);
     const [pagamento, setPagamento] = useState('');
     const [entrega, setEntrega] = useState('');
 
     const handleFinalizarCompra = () => {
         alert('Compra finalizada com sucesso!');
-        setCarrinhoItem([]); // Limpar o carrinho
+        setCarrinhoItem([]); 
     }
 
     const total = carrinhoItem.reduce((total, item) => total + (item.quantity * item.produto.preco), 0);

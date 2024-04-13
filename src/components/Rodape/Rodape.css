@@ -1,38 +1,42 @@
-.footer {
+.container-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #e5bc82;
     width: 100%;
+    height: 15vh;
 }
 
-.footer ul {
+.footer-lista {
     flex: 1;
     margin-right: 7%;
     margin-left: 7%;
     list-style: none;
-    margin-top: 3%;
 }
-.footer ul li {
+.footer-lista li {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.footer ul li span {
+.footer-lista li span {
     margin-left: 10px;
     color: #836944;
 }
 
-.footer .titulo {
+.footer-lista .titulo {
     font-weight: bold;
     color: #836944;
 }
 
-.footer .titulo::after {
+.footer-lista .titulo::after {
     margin-right: 5px;
 }
 
+.icone-fa{
+    color: #836944;
+
+}
 .copyright {
     justify-content: space-evenly;
     background-color: #be9c6b;

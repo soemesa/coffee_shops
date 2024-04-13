@@ -39,13 +39,12 @@ const CarrinhoItems = () => {
 
     return (
         <div className="container-carrinho">
-            <h1>Carrinho</h1>
             <div className="carrinho">
                 {carrinhoItem.map(item => ( 
                     <div key={item.produto.id} className="carrinho-card">
                         <img className="carrinho-imagem" src={item.produto.imagem} alt="imagem do produto"/>
                         <div className="carrinho-info">
-                            <h2 className="carrinho-nome">{item.produto.nome}</h2>
+                            <p className="carrinho-nome">{item.produto.nome}</p>
                             <p className="carrinho-preco">Preço: R${item.produto.preco}</p>
                             <div className='carrinho-quantity'>
                                 <label>Quantidade: </label>
@@ -73,23 +72,3 @@ const CarrinhoItems = () => {
 
 export default CarrinhoItems
 
-
-/**const handleFinalizarCompra = () => {
-        if (passo === 0) {
-            // Verificar dados
-            const confirmacao = window.confirm(`Você está comprando: ${carrinhoItem[0].quantity} ${carrinhoItem[0].produto.nome}\nOs dados estão corretos?`);
-            if (confirmacao) {
-                setPasso(1);
-            }
-        } else if (passo === 1) {
-            // Escolher forma de pagamento
-            const pagamento = window.prompt('Escolha a forma de pagamento: (1) Crédito, (2) Débito, (3) Parcelado');
-            if (['1', '2', '3'].includes(pagamento)) {
-                setPasso(2);
-            }
-        } else if (passo === 2) {
-            // Finalizar compra
-            alert('Compra finalizada com sucesso!');
-            setPasso(0);
-        }
-    } */

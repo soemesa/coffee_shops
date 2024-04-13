@@ -104,9 +104,15 @@ const cafes = [
         imagem: "./imagens/pudim.jpg", 
         quantidadeEstoque: 20
     }, 
+    {
+        id: 16, 
+        descricao: "Coxinha frango", 
+        preco: 10.00, 
+        imagem: "./imagens/coxinha.jpg", 
+        quantidadeEstoque: 20
+    },
 ];
 
 export default cafes;
 
 
-// {id: 15, descricao: "Coxinha frango", preco: 10.00, imagem: "./imagens/coxinha.jpg", quantidadeEstoque: 20},

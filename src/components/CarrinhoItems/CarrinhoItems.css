@@ -1,3 +1,4 @@
+
 .carrinho-card{
     display: flex;
     align-items: center;
@@ -7,6 +8,8 @@
     background-color: beige;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .carrinho-imagem {
@@ -16,10 +19,14 @@
     border-radius: 5px;
     object-fit: cover;
 }
+.carrinho-nome {
+    font-weight: bold;
+}
 
 .carrinho-info {
     display: flex;
-    gap: 10em;
+    gap: 18em;
+    justify-content:start ;
 }
 .carrinho-quantity {
     display: flex;
@@ -45,18 +52,17 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    background-color: beige;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
 .total-comprar h2{
     margin: 0;
     color: blue;
+    background-color: #fff;
 }
 
 .total-comprar button{
     background-color: #f39315;
-    color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
@@ -70,52 +76,3 @@
   }
 
 
-
-/*
-
-.container-carrinho{
-    width: 100%;
-    padding: 40px;
-    box-sizing: border-box;
-}
-
-
-.carrinho-imagem{
-    width: 100px;
-    height: 100px;
-}
-
-
-
-
-
-/*
-}
-.carrinho{
-    column-gap: 20px;
-    flex-wrap: wrap;
-}
-
-.carrinho-card{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 10px 0;
-    height: 100px;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;    
-}
-.carrinho-imagem{
-    width: 100px;
-    height: 100px;
-    display: block;
-    border-radius: 4px;
-}
-
-.carrinho-info{
-    color: rgb(99, 84, 84);
-    display: inline-block;
-    margin-bottom: 5px;
-}
-*/

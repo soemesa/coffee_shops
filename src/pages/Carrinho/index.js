@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Banner from "../../components/Banner"
-import Rodape from "../../components/Rodape"
 import CarrinhoItems from "../../components/CarrinhoItems"
+import Rodape from "../../components/Rodape";
 
 
 
@@ -10,8 +10,8 @@ const Carrinho = ( ) => {
     return(
         <div>
             < Banner />
-            <CarrinhoItems carrinhoItem={carrinhoItem} setCarrinhoItem={setCarrinhoItem} />        
-            <Rodape /> 
+            <CarrinhoItems carrinhoItem={carrinhoItem} setCarrinhoItem={setCarrinhoItem} />   
+            <Rodape />     
         </div> 
                
     )
