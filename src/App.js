@@ -12,10 +12,10 @@ function App() {
     <CarrinhoProvider>
       <Router>
         <Routes>
-          <Route path='/' element={<PaginaPrincipal />} />
-          <Route path='/cardapio' element={<Cardapio />} />
-          <Route path='/carrinho' element={<Carrinho />} />
-          <Route path='/compras' element={<Compras /> } />
+          <Route path='/coffee_shops' element={<PaginaPrincipal />} />
+          <Route path='/cardapio/coffee_shops' element={<Cardapio />} />
+          <Route path='/carrinho/coffee_shops' element={<Carrinho />} />
+          <Route path='/compras/coffee_shops' element={<Compras /> } />
         </Routes>
       </Router>
     </CarrinhoProvider>
