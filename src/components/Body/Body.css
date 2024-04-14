@@ -56,3 +56,65 @@
     margin-left: 5%;
 }
 
+@media (max-width: 768px) {
+    .body-banner-h1 {
+        font-size: 2.5em;
+        top: 20%;
+        left: 10%;
+    }
+
+    .body-banner-h5 {
+        font-size: 1.5em;
+        top: 30%;
+        left: 10%;
+    }
+
+    .body-banner-img {
+        height: 35vh;
+    }
+
+    .body-sobre {
+        height: auto;
+    }
+
+    .body-sobre-titulo {
+        font-size: 2em;
+    }
+
+    .body-sobre-text {
+        font-size: 1em;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+}
+
+/* Estilos para telas com largura até 480px */
+@media (max-width: 480px) {
+    .body-banner-h1 {
+        font-size: 1.4em;
+        top: 16%;
+        left: 8%;
+    }
+
+    .body-banner-h5 {
+        font-size: 1em;
+        top: 20%;
+        left: 5%;
+    }
+
+    .body-banner-img {
+        height: 30vh;
+    }
+
+    .body-sobre-titulo {
+        font-size: 1.5em;
+    }
+
+    .body-sobre-text {
+        font-size: 0.9em;
+        width: 80%;
+        margin-left: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
