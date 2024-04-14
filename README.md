@@ -113,60 +113,6 @@ const cafes = [
         preco: 15.00, 
         imagem: "./imagens/cap-frappe.jpg", 
     },
-    {
-        id: 8, 
-        nome: "Cappuccino com Nutella", 
-        preco: 15.00, 
-        imagem: "./imagens/cap-nutella.jpeg", 
-    },
-    {
-        id: 9, 
-        nome: " Cappuccino com Nozes", 
-        preco: 15.00, 
-        imagem: "./imagens/milk-nozes.jpg", 
-    },
-    {
-        id: 10, 
-        nome: "Croissant", 
-        preco: 10.00, 
-        imagem: "./imagens/croissant-trad.jpg", 
-    },
-    {
-        id: 11, 
-        nome: "Brownie chocolate", 
-        preco: 12.00, 
-        imagem: "./imagens/brownie.jpg", 
-    },
-    {
-        id: 12, 
-        nome: "Cookies", 
-        preco: 9.00, 
-        imagem: "./imagens/cookies.jpg", 
-    },
-    {
-        id: 13, 
-        nome: "Panqueca", 
-        preco: 9.00, 
-        imagem: "./imagens/panqueca.jpg", 
-    },
-    {
-        id: 14, 
-        nome: "Pão de queijo", 
-        preco: 6.00, 
-        imagem: "./imagens/pao-queijo.jpg", 
-    },
-    {
-        id: 15, 
-        nome: "Pudim de Leite", 
-        preco: 7.00, 
-        imagem: "./imagens/pudim.jpg", 
-    }, 
-    {
-        id: 16, 
-        descricao: "Coxinha frango", 
-        preco: 10.00, 
-        imagem: "./imagens/coxinha.jpg", 
-    },
 ];
 
 export default cafes;
