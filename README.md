@@ -749,7 +749,8 @@ const CarrinhoItems = () => {
                 {carrinhoItem.length > 0 && (
                     <div className='total-comprar'>
                         <h2>
-                            Total: R${carrinhoItem.reduce((total, item) => total + (item.quantity * item.produto.preco), 0)}
+                            Total: R$
+                            {carrinhoItem.reduce((total, item) => total + (item.quantity * item.produto.preco), 0)}
                         </h2>
                         <Link to="/compras">
                             <button>Comprar</button>
