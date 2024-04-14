@@ -1,4 +1,3 @@
-
 import './Rodape.css';
 
 import {FaMapMarkerAlt, FaRegCalendarAlt, FaRegClock, FaGlobe, FaEnvelope, FaPhoneSquareAlt, FaWhatsapp, FaFacebook, FaInstagram } from 'react-icons/fa';

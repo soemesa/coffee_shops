@@ -1,5 +1,3 @@
-//import produtos from "../../produtosdb.js";
-
 import Banner from "../../components/Banner"
 import CardapioProdutos from "../../components/CardapioProdutos"
 import Rodape from "../../components/Rodape"
@@ -14,6 +12,5 @@ const Cardapio = () => {
             </div>     
     )
 }
-
 export default Cardapio
 

@@ -26,15 +26,3 @@ function App() {
 export default App;
 
 
-/*
-  
-  const [active, setActive] = useState(false);
-
-  const onDeleteProduct = (product ) => {
-    const results = allProducts.filter(
-      item => item.id != product.id
-    );
-    setTotal(total - product.price * product.quantity);
-    setCountProducts(countProducts - product.quantity);
-    return setAllProducts([...results]);
-  };*/

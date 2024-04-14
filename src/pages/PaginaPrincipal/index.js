@@ -10,10 +10,8 @@ const PaginaPrincipal = () => {
             < Banner/>
             < Body/>
             < Rodape />
-        </div>
-        
+        </div> 
     );
-
 }
 
 export default PaginaPrincipal

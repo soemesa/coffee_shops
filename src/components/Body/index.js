@@ -1,6 +1,5 @@
 import './Body.css'
 
-
 const Body = () => {
     return (
         <body className='conteudo-body'>

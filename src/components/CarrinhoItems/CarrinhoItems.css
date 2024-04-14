@@ -34,8 +34,8 @@
 }
 
 .carrinho-quantity input[type="number"] {
-    width: 35px; /* Ajuste o tamanho da caixa de número */
-    margin-left: 10px; /* Adicione algum espaço à esquerda da caixa de número */
+    width: 35px; 
+    margin-left: 10px; 
     height: 35px;
 }
 .botao-remover{
