@@ -32,3 +32,32 @@
     color: white;
     text-decoration: none;
 }
+/* Estilos para telas com largura até 768px */
+@media (max-width: 768px) {
+    .logo img {
+        width: 4em;
+    }
+
+    .item-menu {
+        margin: 0 15px;
+    }
+
+    .link-menu {
+        padding: 1em 1em;
+    }
+}
+
+/* Estilos para telas com largura até 480px */
+@media (max-width: 480px) {
+    .logo img {
+        width: 3em;
+    }
+
+    .item-menu {
+        margin: 0 10px;
+    }
+
+    .link-menu {
+        padding: 0.5em 0.5em;
+    }
+}

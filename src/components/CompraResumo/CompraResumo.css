@@ -1,5 +1,5 @@
 .container {
-    background-color: thistle;
+    background-image: url("../../../public/imagens/logo-cardapio1.jpg");
     display: flex;
     align-items: center;
     height: 100vh; /* Ajuste de acordo com suas necessidades */
