@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/coffee_shops/static/css/main.baeec42c.css",
-    "main.js": "/coffee_shops/static/js/main.982b0e8f.js",
+    "main.css": "/coffee_shops/static/css/main.64b3487a.css",
+    "main.js": "/coffee_shops/static/js/main.ba90da09.js",
     "static/media/logo-cardapio1.jpg": "/coffee_shops/static/media/logo-cardapio1.60a1f631734cee40b4f5.jpg",
     "index.html": "/coffee_shops/index.html",
-    "main.baeec42c.css.map": "/coffee_shops/static/css/main.baeec42c.css.map",
-    "main.982b0e8f.js.map": "/coffee_shops/static/js/main.982b0e8f.js.map"
+    "main.64b3487a.css.map": "/coffee_shops/static/css/main.64b3487a.css.map",
+    "main.ba90da09.js.map": "/coffee_shops/static/js/main.ba90da09.js.map"
   },
   "entrypoints": [
-    "static/css/main.baeec42c.css",
-    "static/js/main.982b0e8f.js"
+    "static/css/main.64b3487a.css",
+    "static/js/main.ba90da09.js"
   ]
 }
