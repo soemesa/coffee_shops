@@ -10,12 +10,12 @@ import Compras from './pages/Compras';
 function App() {
   return (
     <CarrinhoProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path='/coffee_shops' element={<PaginaPrincipal />} />
-          <Route path='/cardapio/coffee_shops' element={<Cardapio />} />
-          <Route path='/carrinho/coffee_shops' element={<Carrinho />} />
-          <Route path='/compras/coffee_shops' element={<Compras /> } />
+          <Route path='/' element={<PaginaPrincipal />} />
+          <Route path='/cardapio/' element={<Cardapio />} />
+          <Route path='/carrinho/' element={<Carrinho />} />
+          <Route path='/compras/' element={<Compras /> } />
         </Routes>
       </Router>
     </CarrinhoProvider>
